@@ -1,0 +1,1 @@
+class Dashing.Epic extends Dashing.Widget

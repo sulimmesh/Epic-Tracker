@@ -1,0 +1,40 @@
+<h1>
+  <span class="title" data-bind="title"></span>
+  <span data-bind="epic"></span>
+  <span data-bind="iteration_start"></span> - 
+  <span data-bind="iteration_finish"></span>
+</h1>
+ 
+<div id="pivotal_stories">
+  <table>
+    <th>Status</th>
+    <th>Stories</th>
+    <th>Points</th>
+    <tr class="light">
+      <td>Accepted</td>
+      <td><span data-bind="accepted"></span></td>
+      <td><span class="points" data-bind="accepted_estimate"></span></td>
+    </tr>
+    <tr>
+      <td>Finished</td>
+      <td><span data-bind="finished"></span></td>
+      <td><span class="points" data-bind="finished_estimate"></span></td>
+    </tr>
+    <tr class="light">
+      <td>Started</td>
+      <td><span data-bind="started"></span></td>
+      <td><span class="points" data-bind="started_estimate"></span></td>
+    </tr>
+    <tr>
+      <td>Unstarted</td>
+      <td><span data-bind="unstarted"></span></td>
+      <td><span class="points" data-bind="unstarted_estimate"></span></td>
+    </tr>
+    <tr class="light">
+      <td>Total</td>
+      <td><span data-bind="total"></span></td>
+      <td><span class="points" data-bind="total_estimate"></span></td>
+    </tr>
+  </table>
+  <div style="clear:both;"></div>
+</div>
