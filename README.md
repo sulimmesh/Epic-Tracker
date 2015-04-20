@@ -4,7 +4,7 @@ Pivotal Tracker widget for Dashing to track and display project epics.
 ![](https://github.com/skeletalbassman/Epic-Tracker/blob/master/sample.png)
 
 epic.html
----HTML
+```HTML
 <h1>
   <span class="title" data-bind="title"></span>
   <span data-bind="epic"></span>
@@ -45,4 +45,4 @@ epic.html
   </table>
   <div style="clear:both;"></div>
 </div>
----
+```
