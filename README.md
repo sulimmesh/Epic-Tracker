@@ -46,3 +46,20 @@ epic.html
   <div style="clear:both;"></div>
 </div>
 ```
+
+```css
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  rgb(37, 97, 136);
+$light-color: rgb(72,141,186);
+
+.widget-epic {
+ 
+  background-color: $background-color;
+
+	.light {
+		background-color: $light-color;
+	}
+ }
+ ```
